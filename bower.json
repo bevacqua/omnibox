@@ -1,0 +1,14 @@
+{
+  "name": "omnibox",
+  "version": "1.0.0",
+  "description": "Fast url parsing with a tiny footprint",
+  "main": [
+    "dist/omnibox.js"
+  ],
+  "ignore": [],
+  "homepage": "https://github.com/bevacqua/omnibox",
+  "authors": [
+    "Nicolas Bevacqua <nicolasbevacqua@gmail.com>"
+  ],
+  "license": "MIT"
+}
