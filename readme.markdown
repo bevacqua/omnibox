@@ -23,7 +23,7 @@ Use `omnibox` only if you don't need any of the features shown below.
 - Basic authentication support `http://user:pwd@domain.com`
 - IDNA support _(special characters in host)_
 - `options`
-- Anything that's provided by the `.parse` method
+- Anything that's not provided by the `.parse` method
 
 If you need any of those features, use the more comprehensive [fast-url-parser][1] instead. Note that browser support is smaller because they rely on `Uint8Array`, and their footprint is also larger.
 
