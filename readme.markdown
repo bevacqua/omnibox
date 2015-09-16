@@ -47,6 +47,16 @@ Result for `omnibox.parse('https://stompflow.com/foo?bar=23&baz=abc#hash-parts')
   query: { bar: '23', baz: 'abc' } }
 ```
 
+# `omnibox/querystring`
+
+You could also just parse the query string part. See the example below.
+
+```js
+var parse = require('omnibox/querystring').parse
+parse('bar=23&baz=abc')
+// <- { bar: '23', baz: 'abc' }
+```
+
 # License
 
 MIT
